@@ -21,8 +21,8 @@ namespace Analogy.LogViewer.Serilog
             Format = FileFormat.Unknown;
             Directory = string.Empty;
             IgnoredAttributes = new List<string>() { "N" };
-            FileOpenDialogFilters = "All Supported formats (*.Clef;*.log;*.gz)|*.clef;*.log;*.gz|Clef format (*.clef)|*.clef|Plain log text file (*.log)|*.log|GZIP file (*.gz)|*.gz";
-            SupportFormats = new List<string> { "*.Clef", "*.log", "*.gz" };
+            FileOpenDialogFilters = "All Supported formats (*.Clef;*.log;*.gz;*.json)|*.clef;*.log;*.gz|Clef format (*.clef)|*.clef|Plain log text file (*.log)|*.log|GZIP file (*.gz)|*.gz|JSON file (*.json)|*.json";
+            SupportFormats = new List<string> { "*.Clef", "*.log", "*.gz", "*.json" };
         }
 
 
